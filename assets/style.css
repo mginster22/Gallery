@@ -1,0 +1,42 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing:inherit;
+}
+@font-face {
+    font-family: "spaceagecyrillic" ;
+    src: url('../fonts/spaceagecyrillic-regular.ttf') format('woff');
+}
+.block-img{
+    padding: 100px 100px 200px 300px;
+    background-color: bisque;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.title{
+    font-family: 'spaceagecyrillic';
+    font-size: 48px;
+    color: greenyellow;
+    padding-bottom: 40px;
+}
+.title:hover{
+    color:crimson;
+}
+.line {
+     border: 3px solid greenyellow;
+     padding: 5px 5px;
+}
+.line:hover{
+border-color:crimson;
+transition: all 0.4s;
+}
+
