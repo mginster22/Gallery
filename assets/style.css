@@ -16,8 +16,8 @@ html {
 }
 
 .block-img {
-    background-color: bisque;
     padding-bottom: 100px;
+    background-color: bisque;
 }
 
 .container {
@@ -29,10 +29,10 @@ html {
 
 .title {
     display: inline-block;
+    margin-bottom: 40px;
+    color: greenyellow;
     font-family: 'spaceagecyrillic';
     font-size: 48px;
-    color: greenyellow;
-    margin-bottom: 40px;
     cursor: pointer;
    
 }
@@ -43,11 +43,11 @@ html {
 }
 
 .line {
-    border: 3px solid greenyellow;
     padding: 5px 5px;
-    border-radius: 25%;
     margin-left: 5px;
     margin-top: 5px;
+    border-radius: 25%;
+    border: 3px solid greenyellow;
     cursor: pointer;
 }
 
@@ -55,24 +55,22 @@ html {
     border-color: crimson;
     transition: all 0.4s;
 }
-
-
 .title-desr{
     display: inline-block;
+    margin-bottom: 40px;
+    color: crimson;
     font-family: 'spaceagecyrillic';
     font-size: 30px;
-    color: crimson;
-    margin-bottom: 40px;
     cursor: pointer;
 }
 .title-desr:hover{
 color:greenyellow;
 }
 .link{
+    color:crimson;
     text-decoration: none;
     font-family: 'spaceagecyrillic';
     font-size: 30px;
-    color:crimson;
 }
 .link:hover{
     color: greenyellow;
