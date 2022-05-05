@@ -56,3 +56,24 @@ html {
     transition: all 0.4s;
 }
 
+
+.title-desr{
+    font-family: 'spaceagecyrillic';
+    font-size: 30px;
+    color: crimson;
+    margin-bottom: 40px;
+    cursor: pointer;
+    display: inline-block;
+}
+.title-desr:hover{
+color:greenyellow;
+}
+.link{
+    text-decoration: none;
+    font-family: 'spaceagecyrillic';
+    font-size: 30px;
+    color:greenyellow;
+}
+.link:hover{
+    color: crimson;
+}
