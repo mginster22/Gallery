@@ -72,8 +72,8 @@ color:greenyellow;
     text-decoration: none;
     font-family: 'spaceagecyrillic';
     font-size: 30px;
-    color:greenyellow;
+    color:crimson;
 }
 .link:hover{
-    color: crimson;
+    color: greenyellow;
 }
