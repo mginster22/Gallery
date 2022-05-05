@@ -5,9 +5,9 @@ html {
 *,
 *::after,
 *::before {
+    box-sizing: inherit;
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
 }
 
 @font-face {
@@ -28,12 +28,12 @@ html {
 }
 
 .title {
+    display: inline-block;
     font-family: 'spaceagecyrillic';
     font-size: 48px;
     color: greenyellow;
     margin-bottom: 40px;
     cursor: pointer;
-    display: inline-block;
    
 }
 
@@ -58,12 +58,12 @@ html {
 
 
 .title-desr{
+    display: inline-block;
     font-family: 'spaceagecyrillic';
     font-size: 30px;
     color: crimson;
     margin-bottom: 40px;
     cursor: pointer;
-    display: inline-block;
 }
 .title-desr:hover{
 color:greenyellow;
